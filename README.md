@@ -1,27 +1,33 @@
-# 三师爸原版复刻实验
+# 乔帮主第二大脑配置包
 
-这是一个按三师爸原版流程跑通的最小复刻样板：
+这是一套给 Claude Code 读取和执行的 AI 第二大脑配置包。
 
-```text
-Claude Code / Codex
-→ Obsidian 第二大脑
-→ NotebookLM 素材生成
-→ GitHub Pages 教学驾驶舱
-```
+它的目标不是教你多学一个工具，而是让 Claude Code 真正进入你的资料现场：会读取你的 Clippings，会整理你的知识库，会把 NotebookLM、GitHub Pages、课程网页和产物记录回写到 Obsidian。
+
+## 乔帮主欢迎语
+
+你好，我是乔帮主。
+
+这份配置包，是给有经验的人准备的第一块 AI 工作台地基。
+
+你不用先成为程序员，也不用把所有工具都学明白。你只需要把这份文件交给 Claude Code，让它按步骤帮你安装、连接、验证。等这套第二大脑跑起来，你的网页剪藏、课程资料、外网素材、创作产物，就不再是一堆散乱文件，而会慢慢变成 AI 能读懂、能调用、能复用的经验资产。
+
+先别急着追工具。我们先让 AI 认识你。
 
 ## 在线演示
 
 https://qiao-chief.github.io/sensebar-original-github-test-20260525/
 
-## Starter Kit
+## 配置包
 
-把下面这个配置包链接交给 Claude Code，它会按说明检查环境、安装工具、创建测试 vault，并连接 Obsidian：
+把下面这个文件链接交给 Claude Code，它会按说明检查环境、安装工具、创建测试 vault，并连接 Obsidian：
 
-https://github.com/qiao-chief/sensebar-original-github-test-20260525/blob/main/starter-kit/01-建立ClaudeCode第二大脑.md
+https://github.com/qiao-chief/sensebar-original-github-test-20260525/blob/main/%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E9%85%8D%E7%BD%AE%E5%8C%85/01-%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E9%85%8D%E7%BD%AE%E5%8C%85.md
 
 推荐对 Claude Code 说：
 
 ```text
-请读取这个 Starter Kit 配置包，并按里面的步骤帮我建立 Claude Code 第二大脑：
-https://github.com/qiao-chief/sensebar-original-github-test-20260525/blob/main/starter-kit/01-建立ClaudeCode第二大脑.md
+请读取这个第二大脑配置包，并按里面的步骤帮我建立 Claude Code 第二大脑：
+https://github.com/qiao-chief/sensebar-original-github-test-20260525/blob/main/%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E9%85%8D%E7%BD%AE%E5%8C%85/01-%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E9%85%8D%E7%BD%AE%E5%8C%85.md
 ```
+
