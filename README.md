@@ -40,7 +40,7 @@ https://qiao-chief.github.io/qiao-chief-second-brain-config/
 |---|---|---|
 | **GitHub 能力包** | Agent 可读取和执行的配置文档 | 已完成 |
 | **Obsidian 演示库** | 展示用户最终可以得到的第二大脑形态 | 已完成 |
-| **NotebookLM 课程素材** | 讲义、测验、信息图、授课简报 | 全部已完成 |
+| **NotebookLM 课程素材** | 讲义、测验、信息图、授课PPT | 全部已完成 |
 | **教学驾驶舱** | 展示项目成果和入口链接的 HTML 页面 | 已完成 |
 
 推荐对 Claude Code 说：
@@ -53,7 +53,7 @@ https://github.com/qiao-chief/qiao-chief-second-brain-config/blob/main/00-%E4%BB
 第二步可以对 Claude Code 说：
 
 ```text
-请读取这个 NotebookLM 课程素材工厂配置包，并按里面的步骤把我的课程资料生成简报、信息图、讲义和测验：
+请读取这个 NotebookLM 课程素材工厂配置包，并按里面的步骤把我的课程资料生成PPT、信息图、讲义和测验：
 https://github.com/qiao-chief/qiao-chief-second-brain-config/blob/main/03-%E8%BF%9E%E6%8E%A5NotebookLM%E8%AF%BE%E7%A8%8B%E7%B4%A0%E6%9D%90%E5%B7%A5%E5%8E%82.md
 ```
 
@@ -65,7 +65,7 @@ https://github.com/qiao-chief/qiao-chief-second-brain-config/blob/main/03-%E8%BF
 
 - **GitHub 能力包**：已 clone、整理根目录引导文档（00-04 + 常见问题）、更新 README
 - **Obsidian 演示库**：已创建目录结构、首页、案例展示、执行记录，obsidian-secondbrain MCP 已指向新路径
-- **NotebookLM 课程素材**：已生成课程讲义、测验题、信息图（PNG + JPG）、授课简报（PDF + PPTX）
+- **NotebookLM 课程素材**：已生成课程讲义、测验题、信息图（PNG + JPG）、授课PPT（PDF + PPTX）
 - **教学驾驶舱**：已生成最小可用 HTML 页面
 
 执行记录见：`第二大脑配置包/执行记录/2026-05-26-乔帮主正式版1.0完整链路测试.md`

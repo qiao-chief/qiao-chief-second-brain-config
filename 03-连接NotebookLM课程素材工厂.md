@@ -11,7 +11,7 @@
 
 如果第一个配置包解决的是"让 AI 认识你"，那这个配置包解决的就是"让 AI 开始替你干活"。
 
-你不需要一页页重做课件，也不需要从空白文档开始写课程。你只要把旧资料、外网素材、PDF、网页、视频字幕放进来，Claude Code 会调用 NotebookLM 帮你消化，再把简报、信息图、讲义、测验和产物记录整理回你的第二大脑。
+你不需要一页页重做课件，也不需要从空白文档开始写课程。你只要把旧资料、外网素材、PDF、网页、视频字幕放进来，Claude Code 会调用 NotebookLM 帮你消化，再把PPT、信息图、讲义、测验和产物记录整理回你的第二大脑。
 
 从这一刻开始，你的资料不只是资料，而是可以被加工、组合、交付的课程资产。
 
@@ -24,7 +24,7 @@
 - 一个 NotebookLM notebook
 - 一批已上传的 source
 - 一份课程素材分析报告
-- 一份授课简报
+- 一份授课PPT
 - 一张或多张信息图
 - 一份课程讲义草稿
 - 一份基础测验题
@@ -52,7 +52,7 @@
 ```text
 1. 这次要加工的课程主题是什么？
 2. 原始资料放在哪里？可以是文件夹、PDF、Markdown、网页链接或 YouTube 链接。
-3. 你希望产出什么？默认：简报、信息图、讲义、测验、Obsidian 记录。
+3. 你希望产出什么？默认：PPT、信息图、讲义、测验、Obsidian 记录。
 ```
 
 将答案记为：
@@ -218,14 +218,14 @@ notes/课程素材分析.md
 
 默认生成四类产物。
 
-**1. 授课简报**
+**1. 授课PPT**
 
 ```bash
 nlm slides create NOTEBOOK_ID \
   --format detailed_deck \
   --length default \
   --language zh-CN \
-  --focus "围绕 COURSE_TOPIC 生成一份适合课堂讲授或训练营讲解的详细简报，包含结构、关键概念、案例、练习和总结。" \
+  --focus "围绕 COURSE_TOPIC 生成一份适合课堂讲授或训练营讲解的详细PPT，包含结构、关键概念、案例、练习和总结。" \
   --confirm
 ```
 
@@ -311,7 +311,7 @@ downloads/
 
 ```bash
 nlm download infographic NOTEBOOK_ID --output "downloads/信息图.png"
-nlm download slide-deck NOTEBOOK_ID --output "downloads/授课简报.pdf"
+nlm download slide-deck NOTEBOOK_ID --output "downloads/授课PPT.pdf"
 nlm download report NOTEBOOK_ID --output "downloads/课程讲义.md"
 nlm download quiz NOTEBOOK_ID --output "downloads/测验题.json"
 ```
@@ -340,7 +340,7 @@ output/
 
 ```text
 COURSE_TOPIC-课程素材分析.md
-COURSE_TOPIC-授课简报.pdf
+COURSE_TOPIC-授课PPT.pdf
 COURSE_TOPIC-信息图.png
 COURSE_TOPIC-课程讲义.md
 COURSE_TOPIC-测验题.json
@@ -391,7 +391,7 @@ tags:
 | 类型 | 文件 | 状态 |
 |:---|:---|:---|
 | 课程素材分析 |  | 已完成 |
-| 授课简报 |  | 已完成 |
+| 授课PPT |  | 已完成 |
 | 信息图 |  | 已完成 |
 | 课程讲义 |  | 已完成 |
 | 测验题 |  | 已完成 |

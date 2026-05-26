@@ -139,7 +139,7 @@ VAULT_PATH
 
 - 教学驾驶舱
 - NotebookLM 信息图
-- 简报
+- PPT
 - 课程脚本
 - 执行日志
 ```
