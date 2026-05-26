@@ -18,6 +18,17 @@
 
 https://qiao-chief.github.io/qiao-chief-second-brain-config/
 
+## 新账号测试记录
+
+2026-05-26 已使用 NotebookLM 账号 `mellingerphjxe@gmail.com` 重新跑通课程素材工厂链路。
+
+本次验证结果：
+
+- NotebookLM 可通过 `qiao-es` profile 正常登录和切换
+- 课程素材分析、授课简报、信息图、课程讲义、测验题均已生成
+- 配置包 02 已补充多账号切换说明和当前 CLI 参数差异
+- 执行记录见：`第二大脑配置包/执行记录/2026-05-26-新账号课程素材工厂测试.md`
+
 ## 配置包
 
 **01 第二大脑配置包**

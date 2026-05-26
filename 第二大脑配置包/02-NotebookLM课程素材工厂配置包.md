@@ -455,16 +455,22 @@ Obsidian 回写页面：
 
 ```bash
 # 查看已登录账号
-nlm login list
+nlm login profile list
 
-# 切换账号
-nlm login switch <profile-name>
+# 检查当前账号是否有效
+nlm login --check
+
+# 切换到新账号
+nlm login switch qiao-es
+
+# 切回默认账号
+nlm login switch default
 
 # 重新登录新账号
-nlm login
+nlm login --profile qiao-es --clear
 ```
 
-切换后，Claude Code 会自动使用新账号创建 notebook 和生成产物。
+切换账号后，建议重启 Claude Code / Codex，让它们重新读取 NotebookLM 权限。之后 Claude Code 会使用当前默认 profile 创建 notebook 和生成产物。
 
 ---
 
@@ -478,4 +484,3 @@ nlm login
 | slide_deck 长时间 in_progress | 可能触发限流，记录日志，后续错峰重试 |
 | 下载命令失败 | 用 `nlm download xxx --help` 查看当前版本参数 |
 | 内容质量一般 | 增加更好的 source，或者用 Claude Code 二次整理 |
-
