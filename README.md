@@ -56,3 +56,9 @@ https://github.com/qiao-chief/qiao-chief-second-brain-config/blob/main/%E7%AC%AC
 请读取这个 NotebookLM 课程素材工厂配置包，并按里面的步骤把我的课程资料生成简报、信息图、讲义和测验：
 https://github.com/qiao-chief/qiao-chief-second-brain-config/blob/main/%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E9%85%8D%E7%BD%AE%E5%8C%85/02-NotebookLM%E8%AF%BE%E7%A8%8B%E7%B4%A0%E6%9D%90%E5%B7%A5%E5%8E%82%E9%85%8D%E7%BD%AE%E5%8C%85.md
 ```
+
+---
+
+## 正式版 1.0 验证记录
+
+2026-05-26，乔帮主第二大脑配置包已在全新的中文独立项目路径下完成完整链路测试，包含 GitHub 能力包、Obsidian 演示库、NotebookLM 课程素材和最小教学驾驶舱。
