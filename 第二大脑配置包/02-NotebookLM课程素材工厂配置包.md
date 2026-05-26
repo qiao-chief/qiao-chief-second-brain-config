@@ -229,6 +229,8 @@ nlm slides create NOTEBOOK_ID \
   --confirm
 ```
 
+> 注：部分 CLI 版本可能使用 `--prompt` 而非 `--focus`。如果报错，执行 `nlm slides create --help` 确认当前版本参数。
+
 **2. 信息图**
 
 ```bash
@@ -246,9 +248,11 @@ nlm infographic create NOTEBOOK_ID \
 ```bash
 nlm report create NOTEBOOK_ID \
   --language zh-CN \
-  --focus "基于资料生成一份课程讲义草稿，要求结构清晰，适合学员课后复习。" \
+  --prompt "基于资料生成一份课程讲义草稿，要求结构清晰，适合学员课后复习。" \
   --confirm
 ```
+
+> 注：部分 CLI 版本使用 `--prompt` 而非 `--focus`。如果报错，执行 `nlm report create --help` 确认当前版本参数。
 
 如果 `report create` 参数不兼容，先执行：
 
@@ -262,12 +266,14 @@ nlm report create --help
 
 ```bash
 nlm quiz create NOTEBOOK_ID \
-  --question-count 10 \
-  --difficulty medium \
+  --count 10 \
+  --difficulty 3 \
   --language zh-CN \
-  --focus "围绕 COURSE_TOPIC 生成 10 道理解和应用题，帮助学员自测。" \
+  --prompt "围绕 COURSE_TOPIC 生成 10 道理解和应用题，帮助学员自测。" \
   --confirm
 ```
+
+> 注：部分 CLI 版本使用 `--count`（不是 `--question-count`），`--difficulty` 为整数 1-5（不是 `medium`/`hard`）。如果报错，执行 `nlm quiz create --help` 确认当前版本参数。
 
 如果 `quiz create` 参数不兼容，先执行：
 
@@ -443,6 +449,25 @@ Obsidian 回写页面：
 
 ---
 
+## 多账号切换
+
+如果你有多个 Google 账号（例如一个个人、一个团队）：
+
+```bash
+# 查看已登录账号
+nlm login list
+
+# 切换账号
+nlm login switch <profile-name>
+
+# 重新登录新账号
+nlm login
+```
+
+切换后，Claude Code 会自动使用新账号创建 notebook 和生成产物。
+
+---
+
 ## 常见问题
 
 | 问题 | 处理 |
@@ -450,6 +475,7 @@ Obsidian 回写页面：
 | NotebookLM 登录失效 | 执行 `nlm login` |
 | 代理环境报 socksio | `uv tool install notebooklm-mcp-cli --with socksio --force` |
 | studio 一直 in_progress | 等待 5-15 分钟，先下载已完成产物 |
+| slide_deck 长时间 in_progress | 可能触发限流，记录日志，后续错峰重试 |
 | 下载命令失败 | 用 `nlm download xxx --help` 查看当前版本参数 |
 | 内容质量一般 | 增加更好的 source，或者用 Claude Code 二次整理 |
 
