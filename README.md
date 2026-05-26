@@ -2,7 +2,7 @@
 
 这是一套给 Claude Code 读取和执行的 AI 第二大脑配置包。
 
-它的目标不是教你多学一个工具，而是让 Claude Code 真正进入你的资料现场：会读取你的 Clippings，会整理你的知识库，会把 NotebookLM、GitHub Pages、课程网页和产物记录回写到 Obsidian。
+它的目标不是教你多学一个工具，而是让 Claude Code 真正进入你的资料现场：会读取你的网页剪藏，会整理你的知识库，会把 NotebookLM、GitHub Pages、课程网页和产物记录回写到 Obsidian。
 
 ## 乔帮主欢迎语
 
@@ -18,47 +18,54 @@
 
 https://qiao-chief.github.io/qiao-chief-second-brain-config/
 
-## 新账号测试记录
+## 配置包总链路
 
-2026-05-26 已使用 NotebookLM 账号 `mellingerphjxe@gmail.com` 重新跑通课程素材工厂链路。
+```text
+00 从这里开始（本文件）
+    ↓
+01 连接 GitHub
+    ↓
+02 连接 Obsidian 第二大脑
+    ↓
+03 连接 NotebookLM 课程素材工厂
+    ↓
+04 生成教学驾驶舱
+    ↓
+回写 Obsidian，沉淀执行记录
+```
 
-本次验证结果：
+## 当前正式版包含
 
-- NotebookLM 可通过 `qiao-es` profile 正常登录和切换
-- 课程素材分析、授课简报、信息图、课程讲义、测验题均已生成
-- 配置包 02 已补充多账号切换说明和当前 CLI 参数差异
-- 执行记录见：`第二大脑配置包/执行记录/2026-05-26-新账号课程素材工厂测试.md`
-
-## 配置包
-
-**01 第二大脑配置包**
-
-把下面这个文件链接交给 Claude Code，它会按说明检查环境、安装工具、创建测试 vault，并连接 Obsidian：
-
-https://github.com/qiao-chief/qiao-chief-second-brain-config/blob/main/%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E9%85%8D%E7%BD%AE%E5%8C%85/01-%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E9%85%8D%E7%BD%AE%E5%8C%85.md
-
-**02 NotebookLM 课程素材工厂配置包**
-
-把课程资料交给 Claude Code，让它调用 NotebookLM 生成简报、信息图、讲义、测验，并回写到第二大脑：
-
-https://github.com/qiao-chief/qiao-chief-second-brain-config/blob/main/%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E9%85%8D%E7%BD%AE%E5%8C%85/02-NotebookLM%E8%AF%BE%E7%A8%8B%E7%B4%A0%E6%9D%90%E5%B7%A5%E5%8E%82%E9%85%8D%E7%BD%AE%E5%8C%85.md
+| 部分 | 说明 | 状态 |
+|---|---|---|
+| **GitHub 能力包** | Agent 可读取和执行的配置文档 | 已完成 |
+| **Obsidian 演示库** | 展示用户最终可以得到的第二大脑形态 | 已完成 |
+| **NotebookLM 课程素材** | 讲义、测验、信息图、授课简报 | 讲义/测验/信息图已完成，授课简报限流待重试 |
+| **教学驾驶舱** | 展示项目成果和入口链接的 HTML 页面 | 已完成 |
 
 推荐对 Claude Code 说：
 
 ```text
 请读取这个第二大脑配置包，并按里面的步骤帮我建立 Claude Code 第二大脑：
-https://github.com/qiao-chief/qiao-chief-second-brain-config/blob/main/%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E9%85%8D%E7%BD%AE%E5%8C%85/01-%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E9%85%8D%E7%BD%AE%E5%8C%85.md
+https://github.com/qiao-chief/qiao-chief-second-brain-config/blob/main/00-%E4%BB%8E%E8%BF%99%E9%87%8C%E5%BC%80%E5%A7%8B.md
 ```
 
 第二步可以对 Claude Code 说：
 
 ```text
 请读取这个 NotebookLM 课程素材工厂配置包，并按里面的步骤把我的课程资料生成简报、信息图、讲义和测验：
-https://github.com/qiao-chief/qiao-chief-second-brain-config/blob/main/%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E9%85%8D%E7%BD%AE%E5%8C%85/02-NotebookLM%E8%AF%BE%E7%A8%8B%E7%B4%A0%E6%9D%90%E5%B7%A5%E5%8E%82%E9%85%8D%E7%BD%AE%E5%8C%85.md
+https://github.com/qiao-chief/qiao-chief-second-brain-config/blob/main/03-%E8%BF%9E%E6%8E%A5NotebookLM%E8%AF%BE%E7%A8%8B%E7%B4%A0%E6%9D%90%E5%B7%A5%E5%8E%82.md
 ```
 
 ---
 
 ## 正式版 1.0 验证记录
 
-2026-05-26，乔帮主第二大脑配置包已在全新的中文独立项目路径下完成完整链路测试，包含 GitHub 能力包、Obsidian 演示库、NotebookLM 课程素材和最小教学驾驶舱。
+2026-05-26，乔帮主第二大脑配置包已在全新的中文独立项目路径下完成完整链路测试，包含：
+
+- **GitHub 能力包**：已 clone、整理根目录引导文档（00-04 + 常见问题）、更新 README
+- **Obsidian 演示库**：已创建目录结构、首页、案例展示、执行记录，obsidian-secondbrain MCP 已指向新路径
+- **NotebookLM 课程素材**：已生成课程讲义、测验题、信息图（PNG + JPG）；授课简报因 NotebookLM studio 限流未完成，待错峰重试
+- **教学驾驶舱**：已生成最小可用 HTML 页面
+
+执行记录见：`第二大脑配置包/执行记录/2026-05-26-乔帮主正式版1.0完整链路测试.md`
