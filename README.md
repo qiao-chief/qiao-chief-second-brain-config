@@ -16,7 +16,7 @@
 
 ## 在线演示
 
-https://qiao-chief.github.io/ai-second-brain-kit/
+https://qiao-chief.github.io/qiao-chief-second-brain-config/
 
 ## 配置包
 
@@ -24,24 +24,24 @@ https://qiao-chief.github.io/ai-second-brain-kit/
 
 把下面这个文件链接交给 Claude Code，它会按说明检查环境、安装工具、创建测试 vault，并连接 Obsidian：
 
-https://github.com/qiao-chief/ai-second-brain-kit/blob/main/%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E9%85%8D%E7%BD%AE%E5%8C%85/01-%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E9%85%8D%E7%BD%AE%E5%8C%85.md
+https://github.com/qiao-chief/qiao-chief-second-brain-config/blob/main/%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E9%85%8D%E7%BD%AE%E5%8C%85/01-%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E9%85%8D%E7%BD%AE%E5%8C%85.md
 
 **02 NotebookLM 课程素材工厂配置包**
 
 把课程资料交给 Claude Code，让它调用 NotebookLM 生成简报、信息图、讲义、测验，并回写到第二大脑：
 
-https://github.com/qiao-chief/ai-second-brain-kit/blob/main/%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E9%85%8D%E7%BD%AE%E5%8C%85/02-NotebookLM%E8%AF%BE%E7%A8%8B%E7%B4%A0%E6%9D%90%E5%B7%A5%E5%8E%82%E9%85%8D%E7%BD%AE%E5%8C%85.md
+https://github.com/qiao-chief/qiao-chief-second-brain-config/blob/main/%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E9%85%8D%E7%BD%AE%E5%8C%85/02-NotebookLM%E8%AF%BE%E7%A8%8B%E7%B4%A0%E6%9D%90%E5%B7%A5%E5%8E%82%E9%85%8D%E7%BD%AE%E5%8C%85.md
 
 推荐对 Claude Code 说：
 
 ```text
 请读取这个第二大脑配置包，并按里面的步骤帮我建立 Claude Code 第二大脑：
-https://github.com/qiao-chief/ai-second-brain-kit/blob/main/%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E9%85%8D%E7%BD%AE%E5%8C%85/01-%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E9%85%8D%E7%BD%AE%E5%8C%85.md
+https://github.com/qiao-chief/qiao-chief-second-brain-config/blob/main/%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E9%85%8D%E7%BD%AE%E5%8C%85/01-%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E9%85%8D%E7%BD%AE%E5%8C%85.md
 ```
 
 第二步可以对 Claude Code 说：
 
 ```text
 请读取这个 NotebookLM 课程素材工厂配置包，并按里面的步骤把我的课程资料生成简报、信息图、讲义和测验：
-https://github.com/qiao-chief/ai-second-brain-kit/blob/main/%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E9%85%8D%E7%BD%AE%E5%8C%85/02-NotebookLM%E8%AF%BE%E7%A8%8B%E7%B4%A0%E6%9D%90%E5%B7%A5%E5%8E%82%E9%85%8D%E7%BD%AE%E5%8C%85.md
+https://github.com/qiao-chief/qiao-chief-second-brain-config/blob/main/%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%84%91%E9%85%8D%E7%BD%AE%E5%8C%85/02-NotebookLM%E8%AF%BE%E7%A8%8B%E7%B4%A0%E6%9D%90%E5%B7%A5%E5%8E%82%E9%85%8D%E7%BD%AE%E5%8C%85.md
 ```
