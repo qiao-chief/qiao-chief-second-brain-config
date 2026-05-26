@@ -40,7 +40,7 @@ https://qiao-chief.github.io/qiao-chief-second-brain-config/
 |---|---|---|
 | **GitHub 能力包** | Agent 可读取和执行的配置文档 | 已完成 |
 | **Obsidian 演示库** | 展示用户最终可以得到的第二大脑形态 | 已完成 |
-| **NotebookLM 课程素材** | 讲义、测验、信息图、授课简报 | 讲义/测验/信息图已完成，授课简报限流待重试 |
+| **NotebookLM 课程素材** | 讲义、测验、信息图、授课简报 | 全部已完成 |
 | **教学驾驶舱** | 展示项目成果和入口链接的 HTML 页面 | 已完成 |
 
 推荐对 Claude Code 说：
@@ -65,7 +65,7 @@ https://github.com/qiao-chief/qiao-chief-second-brain-config/blob/main/03-%E8%BF
 
 - **GitHub 能力包**：已 clone、整理根目录引导文档（00-04 + 常见问题）、更新 README
 - **Obsidian 演示库**：已创建目录结构、首页、案例展示、执行记录，obsidian-secondbrain MCP 已指向新路径
-- **NotebookLM 课程素材**：已生成课程讲义、测验题、信息图（PNG + JPG）；授课简报因 NotebookLM studio 限流未完成，待错峰重试
+- **NotebookLM 课程素材**：已生成课程讲义、测验题、信息图（PNG + JPG）、授课简报（PDF + PPTX）
 - **教学驾驶舱**：已生成最小可用 HTML 页面
 
 执行记录见：`第二大脑配置包/执行记录/2026-05-26-乔帮主正式版1.0完整链路测试.md`
